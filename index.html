@@ -1,0 +1,551 @@
+<html>
+<title>
+KeyMouseIT
+</title>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="./bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/cb69f41588.js" crossorigin="anonymous"></script>
+    <script src="./slick.min.js"></script>
+    <link rel="stylesheet" href="./slick.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  
+				
+</head>
+<script>
+    $(document).ready(function(){
+      $(".menu-style").click(function(){
+        $(".showoff").css({display:"block"});
+      });
+    });
+
+    $(document).ready(function(){
+      $(".cross").click(function(){
+        $(".showoff").css({display:"none"});
+      });
+    });
+
+    $(document).ready(function(){
+        $('.slider').slick({
+        
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            dots:false,
+            prevArrow:false,
+            nextArrow:false,
+            responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+
+        });
+    });
+    
+    </script>
+<body>
+    <!-- header -->
+
+    <header>
+        <div class="container-fluid top-header">
+            <div class="row">
+                <div class="col-md-2 ">
+                    <div class="navbar-brand page-scroll center-logo" style="padding: 20px; margin: 0px;">
+                        <img src="images/logo.png" alt="Logo" >
+                    </div>
+                </div>
+                <div class="col-md-4  offset-md-6">
+                    <div class="container top-marg1">
+                       <div class="row">
+                        <!-- <div class="border-button-top col-md-2">
+                            <a href="#" style="font-size: 16px;"><b>Contact</b></a> 
+                            </div> -->
+                            <button class="border-button-top col-md-2 btn btn-outline-primary " type="button" style="font-size: 16px;">Contact</button>
+                            <div class="col-md-2">
+                                <img src="images/menu.png" alt="menu" class="menu-style">
+                            </div>
+                            <div class="showoff">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div>
+                                            <div class="navbar-brand page-scroll center-logo1">
+                                                <img src="images/logo.png" alt="Logo"  style="float: left;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div  class="cross">
+                                            <i class="far fa-times-circle"></i>
+                                        </div>
+                                        <div class="show-menu">
+                                            <ul>
+                                                <li class="active"><a href="" class="active">Home</a></li>
+                                                <li><a href="">Services</a></li>
+                                                <li><a href="">Portfolio</a></li>
+                                                <li><a href="">Contact us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div style="margin-left: 70px;">
+                                           <a href=""> <i class="fab fa-facebook be-social"></i></a>
+                                            <a href=""><i class="fab fa-linkedin be-social"></i></a>
+                                            <a href=""><i class="fab fa-twitter-square be-social"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                     </div>
+                    <!-- <div class="topnav" id="myTopnav">
+                        <a href="#home" class="active">Home</a>
+                        <a href="#news">News</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                        <a href="javascript:void(0);" class="icon">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+
+           <div class="container">
+            <div class="row" style="margin-top: -40px;">
+                <div class="col-md-6 banner-left">
+                    <div class="inner-left">
+                        <h1>
+                         KEY TO YOUR<br>
+                         IT CHALLENGES
+                        </h1>
+                        <h5 class="typewrite">CRAFTING AUTHENTIC BRAND EXPERIENCES AND INNOVATIVE STRATEGIES</h5>
+                        <a id="Training_btn" href="#"><h5 class="typewrite" style="margin:0px;font-size: 18px;color:#fec800;font-weight: 700;">Defeat corona</h5></a>
+                         <div class="bottom_line" style="border-color:#fec800;width: 167px;"></div>
+                    </div>
+                 </div>
+                 <div class="col-md-6 banner-right">
+                    <div class="txt-pad">
+                        <img src="images/banner-right.png" alt="inner-RightBanner" class="banner-right-img">
+                    </div>    
+                 </div>
+            </div> 
+           </div>
+        </div>
+    </header>
+
+    <!-- //end header -->
+
+    <!-- TECHNOLOGIES  slider -->
+
+    <section>
+        <div class="container">
+            <div class="col-md-12">
+                <div class="center-txt-head space">
+                    <h2>TECHNOLOGIES WE SERVE</h2>
+                    <div class="orange-border"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="slider">
+                <div>
+                    <img src="images/angularjs.svg" alt="angularjs" class="tech-ban"> 
+                </div>
+                <div>
+                    <img src="images/reactjs.svg" alt="reactjs" class="tech-ban">
+                </div>
+                <div>
+                    <img src="images/mongodb.svg" alt="mongodb" class="tech-ban">
+                </div>
+                <div>
+                    <img src="images/redux.png" alt="redux" class="tech-ban">
+                </div>
+                <div>
+                    <img src="images/rn.svg" alt="rn" class="tech-ban" style="margin-top: 25px;"> 
+                </div>
+                <div>
+                    <img src="images/meteorjs.svg" alt="meteorjs" class="tech-ban">
+                </div>
+                <div>
+                    <img src="images/expressjs.svg" alt="expressjs" class="tech-ban">
+                </div>
+                <!-- <div class="col-md-3 border">
+                    <img src="images/redux.png" alt="redux">
+                </div> -->
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div>
+                <div class="col-md-3">
+                    <img src="images/redux.png" alt="redux">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/mongodb.svg" alt="mongodb">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/reactjs.svg" alt="reactjs">
+                </div>
+                <div class="col-md-3">
+                    <img src="images/angularjs.svg" alt="angularjs">
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- //end TECHNOLOGIES slider -->
+
+    <!-- About -->
+
+    <section>
+        <div class="container">
+            <div class="border2">
+                <h2 class="heading-margin">01.</h2>
+                <h2 class="heading-margin">About KMIT</h2>
+            </div>
+            <div class="border3">
+                <h5 class="heading-style">Presenting the Key to Your IT Challenges</h5>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                   <div class="space"> <img src="images/about.png" alt="banner image" width="100%"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="space txt-pad1">
+                        <p>
+                            KeyMouse IT is a purpose and reason propelled organization imparting independent end-to-end IT products and services in 
+                            <b>User interface (UI) and User experience (UX) design categories, website development, website maintenance, mobile application development, E-Commerce solutions and Internet marketing.</b>
+                        </p><br>
+                        <p>
+                            Our clients approach us with their idea and we deliver an answer, designing and developing through front end advanced technologies and best practices. Our esteemed clients trust our professionalism, excellence,
+                            experience and our customer-centric approach to rejuvenate their business providing them with highest quality work. We are always aimed at providing the most ideal rate of return on investment, no matter what size the client is.
+                        </p><br>
+                        <p>
+                            Our in-house team of developers and designers has been working with individuals, start-ups, large organizations from various sectors to build quality digital solutions and encounters.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- //end About -->
+
+   <!-- featured services -->
+
+   <section class="ser-project">
+    <div class="container">
+        <div class="border2">
+            <h2 class="heading-margin">02.</h2>
+            <h2 class="heading-margin">Featured Services</h2>
+        </div>
+        <div class="border3">
+            <h5 class="heading-style">Design | Development | Marketing</h5>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="space txt-pad1 txt-pad-feat">
+                    <p>
+                        Here's what we work in the most -
+                        <b>ReactJS, AngularJS, MongoDB, NodeJS, MeteorJS, React Native, iOS, WordPress and PHP.</b>
+                    </p><br><br>
+                    <p>
+                        So far it is - Web Design & Development, Mobile App Development, E-commerce Development, Content Management System, 
+                        Amazon Web Services, Prototyping, Branding & Internet Marketing. And we hope to keep on soaring in our line of business
+                        by sufficing our clients with quality service offerings.
+                    </p><br>
+                </div>
+            </div>
+            <div class="col-md-6">
+               <div class="space" style="margin-top: -100px;"><img src="images/featured_slide1.png" alt="banner image" width="100%"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container bottom-marg">
+       <!-- <div class="border-button">
+        <a href="#">View All Services</a>
+       </div> -->
+       <button class="border-button col-md-2 btn btn-outline-primary" type="button" style="font-size: 16px; margin-top: 30px; padding: 10px;">View All Services</button>
+    </div>
+</section>
+
+   <!-- //end featured services -->
+
+    <!-- team -->
+
+    <section>
+        <div class="container-fluid bottom-marg">
+                <div class="row team-img">
+                    <div class="col-md-8">
+                        <div class="team-pad">
+                            <p style="margin: 0px;">
+                                Let's take you to meet our super crazy and mindblown team of Keyboard cats & kittens, 
+                                Magical designers, Die Hard Business Analysts and our Can't Stop Won't Stop Human Boss!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- <div class="border-team-button">
+                            <a href="#">Meet Our Crazy Team</a>
+                           </div> -->
+                           <button class="border-serv-button col-md-2 btn btn-outline-primary" type="button" style="font-size: 16px;width: 216px;">Meet Our Crazy Team</button>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- //end team -->
+
+<!-- featured Project -->
+
+<section class="fet-project">
+    <div class="container">
+        <div class="border2">
+            <h2 class="heading-margin">03.</h2>
+            <h2 class="heading-margin">Featured Project</h2>
+        </div>
+        <div class="border3">
+            <h5 class="heading-style">Design | Development | Marketing</h5>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="space txt-pad1 txt-pad-feat">
+                    <p>
+                        Take a sneak peak into our wide project portfolio of Web & Mobile Development, 
+                        Branding & Marketing and find about out more about the technology trends we work into.
+                    </p><br>
+                    <p>
+                        Project Management Tools we have used:<b> Trello, Jira, Slack, Teamwork, Basecamp, Hubstaff.</b>
+                    </p><br>
+                </div>
+                <button class="border-button portfolio col-md-2 btn btn-outline-primary" type="button">View Our Portfolio</button>
+            </div>
+            <div class="col-md-7">
+               <div class="row" style="height: 607px;">
+                <div class="col-md-6 space-bg-image" style="margin-top: -30%;">
+                    <div class="space "><img src="images/get-me-contact_.gif" class="mobile-gif" alt="banner image"></div>
+                   </div>
+                   <div class="col-md-6 space-bg-image1">
+                    <div class="space"><img src="images/get-me-contact_.gif" class="mobile-gif" alt="banner image"></div>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
+       <div class="border-button">
+        <a href="#">View Our Portfolio</a>
+       </div>
+       <button class="border-button col-md-2 btn btn-outline-primary" type="button" style="font-size: 16px;width: 216px;">View Our Portfolio</button>
+    </div> -->
+</section>
+
+<!-- //end featured Project -->
+
+    <!-- Our Approach -->
+
+    <section>
+        <div class="container top-marg">
+            <div class="border2">
+                <h2 class="heading-margin">04.</h2>
+                <h2 class="heading-margin">Our Approach</h2>
+            </div>
+            <div class="border3">
+                <h5 class="heading-style">More Reasons to Choose Us</h5>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="center media">
+                        <img src="images/demo1.gif" alt="services poster">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- //end Our Approach -->
+
+    <!-- CLIENT PART -->
+
+    <section>
+        <div class="container">
+            <div class="border2">
+                <h2 class="heading-margin">05.</h2>
+                <h2 class="heading-margin">Our Cooperative Clients</h2>
+            </div>
+            <div class="border3">
+                <h5 class="heading-style">Client Reactions</h5>
+            </div>
+        </div>
+        <div class="container bottom-marg">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="center">
+                        <img src="images/avtar.png" alt="avtaar">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                   <div style="padding:0px 15%">
+                    <div class="center space">
+                        <h5>Ashwini Kr. Mishra</h5>
+                        <div class="orange-border"></div>
+                    </div>
+                    <div class="center space">
+                        <p>Their team has great seasoned developers who aren’t shy of communicating any concerns or roadblocks. 
+                            It has been a pleasure to work with them.
+                        </p>
+                        <h6>- FULL STACK DEVELOPMENT</h6>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--//END CLIENT PART -->
+
+    <!-- footer -->
+
+    <section class="bg-color">
+        <div class="container">
+            <div class="row" style="padding: 20px;">
+                <div class="col-md-3">
+                    <div class="row backFooter" style="line-height: 30px;">
+                        <h6 class="color">Home</h6>
+                       <ul>
+                           <li>-About Kmit</li>
+                           <li>-Featured Services</li>
+                           <li>-Featured products</li>
+                           <li>-Our Approach</li>
+                           <li>-Client Reactions</li>
+                       </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 backFooter" style="line-height: 30px;">
+                    <h6 class="color">Services</h6>
+                       <ul>
+                           <li>-UI/UX Development</li>
+                           <li>-Web Development</li>
+                           <li>-Mobile Development</li>
+                           <li>-Digital Marketing</li>
+                       </ul>
+                </div>
+                <div class="col-md-3 backFooter" style="line-height: 30px;">
+                    <h6 class="color">PORTFOLIO</h6>
+                    <ul>
+                        <li>-Web/Mobile Development</li>
+                        <li>-Web Design</li>
+                        <li>- Branding</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 backFooter">
+                    <h6 class="color">Contact Us</h6>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt" style="line-height: 22px;"><span class="font">KeyMouse IT Services Pvt. Ltd.<br>
+                                C-204, Atrium, 7th Floor, Industrial Area,<br>
+                                Sector 74, Sahibzada Ajit Singh Nagar, Mohali – 160055 (INDIA)</span></i><br><br>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope-square"><span class="font">info@keymouseit.com</span></i><br><br>
+                        </li>
+                        <li>
+                            <i class="fas fa-id-card-alt"><span class="font">0172 - 4190008</span></i><br><br>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"><span class="font">www.keymouseit.com</span></i><br>
+                        </li>
+                    </ul>
+                    <h6 class="color">CAREER INQUIRY</h6>
+                    <ul style="line-height: 22px;">
+                        <i class="fas fa-envelope-square ">&nbsp; &nbsp;&nbsp;hr@keymouseit.com</i>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid bg-color">
+           <div class="container">
+            <div class="row backFooter">
+                <div class="col-md-6">
+                    &#169; <b>KeymouseIT Services Private Ltd. </b> /  All Right Reserved.
+                </div>
+                <div class="col-md-6">
+                   <div class="center font-footer">
+                        <i class="fab fa-facebook space2">  Facebook</i>
+                        <i class="fab fa-instagram space2">  Instagram</i>
+                        <i class="fab fa-linkedin space2">  Linkedin</i>
+                        <i class="fab fa-twitter-square space2">  Twitter</i>
+                        <i class="fab fa-behance space2">  Behance</i>
+                        <!-- &#169; KeymouseIT 2021 -->
+                   </div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </section> 
+
+
+    <!-- //end footer-->
+
+    <!-- <script>
+        // function myFunction() {
+        //   var x = document.getElementById("myTopnav");
+        //   if (x.className === "topnav") {
+        //     x.className += " responsive";
+        //   } else {
+        //     x.className = "topnav";
+        //   }
+        // } 
+     </script> -->
+     
+        
+</body>
+</html>
